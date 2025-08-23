@@ -25,20 +25,20 @@
    		<sonar.language>java</sonar.language>
 	</properties>
 	
-<!--     <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://arn:aws:codeartifact:us-east-2:630012419696:domain/demo-domain-name-630012419696s/</url>
+            <url>http://arn:aws:codeartifact:us-east-2:630012419696:repository/demo-domain-name/repo</url>
         </repository>
-    </distributionManagement>     -->
+    </distributionManagement>    
 
-	<distributionManagement>
+<!-- 	<distributionManagement>
  		<repository>
         	<id>aws-codeartifact</id>
-        	<url>arn:aws:codeartifact:us-east-2:630012419696:repository/demo-domain-name/repo</url>
+        	<url>http://arn:aws:codeartifact:us-east-2:630012419696:repository/demo-domain-name/repo</url>
     	</repository>
     </distributionManagement>
-	
+	 -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
