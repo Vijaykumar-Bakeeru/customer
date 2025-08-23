@@ -35,7 +35,7 @@
 	<distributionManagement>
  		<repository>
         	<id>aws-codeartifact</id>
-        	<url>https://demo-domain-name-630012419696.d.codeartifact.us-east-2.amazonaws.com/maven/repo/</url>
+        	<url>arn:aws:codeartifact:us-east-2:630012419696:repository/demo-domain-name/repo</url>
     	</repository>
     </distributionManagement>
 	
